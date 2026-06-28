@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float walkSpeed = 5f;
-    public float runSpeed = 10f;
+    public float walkSpeed = 20f;
+    public float runSpeed = 25f;
     public float jumpHeight = 5f;
     public float gravity = -9.81f;
 
@@ -71,6 +71,6 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetFloat("speed", 0f); // Idle
             }
         }
-        Debug.Log(controller.isGrounded);
+       // Debug.Log(controller.isGrounded);
     }
 }

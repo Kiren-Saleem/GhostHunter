@@ -10,3 +10,8 @@ UserSettings/
 *.unityproj
 *.sln
 *.suo
+
+.vs/
+.vsconfig
+UpgradeLog.htm
+Assets/Real Stars Skybox/
