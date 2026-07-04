@@ -8,15 +8,22 @@ public class GhostWarning : MonoBehaviour
 
     private ColorAdjustments colorAdjustments;
 
+    // Default scene color
+    private Color defaultColor = new Color(15f/225f, 51f / 225f, 143f / 225f);
+
     void Start()
     {
         globalVolume.profile.TryGet(out colorAdjustments);
+
+        // Set the scene to dark blue when the game starts
+        colorAdjustments.colorFilter.value = defaultColor;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            // Red warning
             colorAdjustments.colorFilter.value = new Color(1f, 0.4f, 0.4f);
         }
     }
@@ -25,7 +32,8 @@ public class GhostWarning : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            colorAdjustments.colorFilter.value = Color.white;
+            // Return to dark blue
+            colorAdjustments.colorFilter.value = defaultColor;
         }
     }
 }
