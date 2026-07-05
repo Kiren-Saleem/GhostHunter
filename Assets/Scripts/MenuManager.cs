@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
     public GameObject inventoryCanvas;
     public GameObject clueCanvas;
     public GameObject heartCanvas;
+    public GameObject AudioSource;
 
     public void Start()
     {
@@ -20,6 +21,7 @@ public class MenuManager : MonoBehaviour
         inventoryCanvas.SetActive(false);
         clueCanvas.SetActive(false);
         heartCanvas.SetActive(false);
+        AudioSource.SetActive(false);
         Time.timeScale = 0f;
     }
 
@@ -39,7 +41,7 @@ public class MenuManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         instructionsPanel.SetActive(false);
-
+        AudioSource.SetActive(true);
         inventoryCanvas.SetActive(true);
         clueCanvas.SetActive(true);
         heartCanvas.SetActive(true);

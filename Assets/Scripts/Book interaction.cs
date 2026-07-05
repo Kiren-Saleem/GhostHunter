@@ -36,7 +36,7 @@ public class BookInteraction : MonoBehaviour
 
         yield return new WaitForSeconds(3f);
         inventoryManager.CollectBook();
-        Destroy(gameObject);
+        gameObject.SetActive(false);
 
         Debug.Log("Book destroyed.");
     }

@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   color:
     m_OverrideState: 0
     m_Value: {r: 0, g: 0, b: 0, a: 1}
@@ -204,7 +204,7 @@ MonoBehaviour:
     m_Value: 20
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.8634943, g: 0.86632895, b: 0.9308176, a: 1}
+    m_Value: {r: 0.31656173, g: 0.41502866, b: 0.66666657, a: 1}
   hueShift:
     m_OverrideState: 0
     m_Value: 0

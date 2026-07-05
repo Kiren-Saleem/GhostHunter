@@ -9,7 +9,7 @@ public class GhostWarning : MonoBehaviour
     private ColorAdjustments colorAdjustments;
 
     // Default scene color
-    private Color defaultColor = new Color(15f/225f, 51f / 225f, 143f / 225f);
+    private Color defaultColor = new Color(81f/225f, 106f / 225f, 170f / 225f);
 
     void Start()
     {
