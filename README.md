@@ -1,37 +1,68 @@
 # 👻 Ghost Hunter
 
-A first-person horror puzzle game developed using **Unity 6** and **C#**, where players explore a haunted monastery, uncover hidden clues, solve environmental puzzles, and survive supernatural encounters in an attempt to escape.
+<p align="center">
+  <b>A First-Person Horror Puzzle Game built with Unity 6 & C#</b>
+  <br><br>
+  Explore a haunted monastery, uncover hidden clues, solve environmental puzzles, and escape before the spirits claim you.
+</p>
 
 ---
 
-## Gameplay
+## 📖 Overview
 
-You awaken inside an abandoned monastery filled with mysterious spirits and dark secrets. As you explore its eerie corridors, you'll uncover hidden clues, solve interconnected puzzles, and evade supernatural entities while searching for a way to escape.
+**Ghost Hunter** is a first-person horror puzzle game developed in **Unity 6** using **C#**.
 
----
+The player explores an abandoned monastery filled with supernatural entities, hidden clues, and challenging puzzles. Progress depends on observation, exploration, and using collected items to unlock new areas while avoiding dangerous ghosts.
 
-## Features
-
-- First-person horror exploration
-- Interactive inventory and equipment system
-- Story-driven clue system
-- Puzzle-based progression
-- Ghost encounters with proximity warning effects
-- Three-life health system
-- Interactive environment
-- Main Menu, Instructions, and Game Over screens
+This project was created to learn Unity game development, gameplay programming, UI design, scene management, and interactive game mechanics.
 
 ---
 
-## Built With
+# 🎮 Gameplay
 
-- Unity 6
-- C#
-- Git & GitHub
+Your objective is simple:
+
+> **Explore → Collect → Solve → Survive → Escape**
+
+Throughout the game you will:
+
+- Search rooms for clues
+- Collect important items
+- Solve environmental puzzles
+- Unlock new areas
+- Avoid hostile ghosts
+- Escape the monastery
 
 ---
 
-## Controls
+# ✨ Features
+
+- 👻 First-person horror exploration
+- 🎒 Inventory & equipment system
+- 🔍 Interactive clue collection
+- 🧩 Puzzle-based progression
+- ⚠️ Ghost proximity warning system
+- ❤️ Three-life health system
+- 🚪 Interactive objects and environment
+- 🎵 Background music & sound effects
+- 🖥️ Main Menu, Instructions & Game Over screens
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Unity 6 | Game Engine |
+| C# | Gameplay Programming |
+| Unity Animation System | Character Animation |
+| Unity UI Toolkit / Canvas UI | User Interface |
+| Git | Version Control |
+| GitHub | Project Hosting |
+
+---
+
+# 🎮 Controls
 
 | Action | Key |
 |---------|-----|
@@ -43,98 +74,95 @@ You awaken inside an abandoned monastery filled with mysterious spirits and dark
 
 ---
 
-## Gameplay Video
+# 🎥 Gameplay Demo
 
-🎥 **Watch the gameplay here:**
+Watch the gameplay here:
 
-YOUR_GOOGLE_DRIVE_LINK
+**▶️ Google Drive Video**
+
+(https://drive.google.com/file/d/1pG6wQS_u11Go3ApgCyQ0AUCy5afaFXLz/view?usp=sharing)
 
 ---
 
-# Screenshots
+# 📸 Screenshots
 
-## Main Menu
+## 🏠 Main Menu
 
 ![Main Menu](Screenshots/Scene1.png)
 
 ---
 
-## Instructions
+## 📖 Instructions
 
 ![Instructions](Screenshots/Scene2.png)
 
 ---
 
-## Gameplay
+## 🎮 Gameplay
 
 ![Gameplay](Screenshots/Scene3.png)
 
 ---
 
-## Inventory System
+## 🎒 Inventory System
 
 ![Inventory](Screenshots/Scene4.png)
 
 ---
 
-## Ghost Encounter
+## 👻 Ghost Encounter
 
 ![Ghost Encounter](Screenshots/Scene5.png)
 
 ---
 
-## Project Highlights
+# 🏗 Game Flow
 
-During this project, I implemented:
-
-- First-person player controller
-- Inventory and equipment system
-- Interactive clue mechanics
-- Puzzle-based gameplay
-- Ghost warning and attack system
-- Health and Game Over mechanics
-- UI menus and gameplay interfaces
-- Audio integration
-- Scene management
-
----
-
-## What I Learned
-
-This project helped me strengthen my understanding of:
-
-- Unity Engine
-- C# scripting
-- Gameplay programming
-- Object interaction
-- UI development
-- Puzzle design
-- Debugging and problem solving
-- Version control with Git & GitHub
-
----
-
-## Future Improvements
-
-Some features I'd like to add in future versions include:
-
-- Smarter ghost AI
-- Additional levels
-- Save/Load system
-- Improved lighting and visual effects
-- More puzzles and collectibles
+```text
+Start Game
+      │
+      ▼
+ Main Menu
+      │
+      ▼
+ Instructions
+      │
+      ▼
+ Spawn Inside Monastery
+      │
+      ▼
+ Explore Environment
+      │
+      ▼
+ Collect Clues & Items
+      │
+      ▼
+ Solve Puzzles
+      │
+      ▼
+ Avoid Ghosts
+      │
+      ▼
+ Manage Health & Inventory
+      │
+      ▼
+ Escape the Monastery
+      │
+      ▼
+   Game Complete
+```
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```text
 Ghost Hunter
 │
-├── Assets
-├── Packages
-├── ProjectSettings
-├── Screenshots
+├── Assets/
+├── Packages/
+├── ProjectSettings/
+├── Screenshots/
 │   ├── Scene1.png
 │   ├── Scene2.png
 │   ├── Scene3.png
@@ -146,12 +174,69 @@ Ghost Hunter
 
 ---
 
-## Author
+# 🚀 Key Gameplay Systems
 
-**Kiren Saleem**
+This project includes the implementation of:
 
-This is my first Unity game, developed as a learning project to explore game development with Unity and C#. It provided hands-on experience in building gameplay mechanics, UI systems, puzzle progression, and interactive environments from scratch.
+- First-person character controller
+- Inventory management system
+- Item pickup mechanics
+- Equipment selection system
+- Interactive clue collection
+- Environmental puzzles
+- Ghost AI interactions
+- Ghost warning effects
+- Health management
+- Scene transitions
+- Menu system
+- Audio integration
+- Game Over system
 
 ---
 
-⭐ If you enjoyed this project, feel free to star the repository and share your feedback!
+# 📚 Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+- Unity Engine fundamentals
+- C# scripting
+- Object-oriented programming
+- Gameplay mechanics
+- Player interaction systems
+- Inventory design
+- UI development
+- Scene management
+- Audio implementation
+- Debugging
+- Git & GitHub workflow
+
+---
+
+# 🚧 Future Improvements
+
+Planned enhancements include:
+
+- Better Ghost AI
+- Multiple levels
+- Save & Load system
+- More environmental puzzles
+- Better lighting effects
+- Improved sound design
+- Difficulty modes
+- Checkpoint system
+
+---
+
+# 👨‍💻 Author
+
+**Kiren Saleem**
+
+This project was developed as my first complete Unity game to practice game development concepts, gameplay programming, puzzle mechanics, UI implementation, and interactive system design.
+
+---
+
+## ⭐ Support
+
+If you enjoyed this project or found it helpful, consider giving the repository a **⭐ Star**.
+
+Feedback and suggestions are always welcome!
